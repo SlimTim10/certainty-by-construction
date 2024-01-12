@@ -255,7 +255,7 @@ define inequality (input as [`==n`](AgdaMode)):
   infix 4 _≢_
 ```
 
-When defining new relations, it's always a reward experience to investigate
+When defining new relations, it's always a rewarding experience to investigate
 which properties hold of the new construction. As you might expect, inequality
 is symmetric:
 
