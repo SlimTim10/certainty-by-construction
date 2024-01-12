@@ -152,11 +152,11 @@ a strange result:
 
 What happened is that Agda noticed that *there are no constructors* for the type
 `expr:2 ≡ 3`. Therefore, this function `def:2≢3` can never be called, since
-there is argument that will typecheck. Since Agda notices that the whole thing
-is moot anyway, we aren't required to write any implementation, which explains
-the funny `()` notation, also known as an *absurd pattern match.* Absurd pattern
-matches don't require an definition, and we illustrate that by not giving any
-equals sign.
+there is no argument that will typecheck. Since Agda notices that the whole
+thing is moot anyway, we aren't required to write any implementation, which
+explains the funny `()` notation, also known as an *absurd pattern match.*
+Absurd pattern matches don't require an definition, and we illustrate that by
+not giving any equals sign.
 
 By virtue of having written a definition of `def:2≢3` that typechecks, we have
 successfully proven the fact that two is not equal to three. Mission
