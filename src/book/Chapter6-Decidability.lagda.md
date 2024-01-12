@@ -246,7 +246,7 @@ universe-polymorphic.
 ## Inequality {#sec:ineq}
 
 With a satisfactory definition for propositional negation, we can
-define inequality (input as [`neq`](AgdaMode)):
+define inequality (input as [`==n`](AgdaMode)):
 
 
 ```agda
