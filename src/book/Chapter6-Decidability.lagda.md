@@ -269,7 +269,7 @@ that reflexivity would require us to show `bind:x:x ≢ x` for any `x`, which is
 exactly the *opposite* of what we're trying to encode here.
 
 Interestingly however, we *can* prove that `type:_≢_` isn't reflexive by showing
-that if there were construction, it would lead immediately to contradiction.
+that if there were a construction, it would lead immediately to contradiction.
 Let's show this in a few steps. First, we will define a type `type:Reflexive`
 which will state the reflexivity property. This isn't strictly necessary, but it
 lessens the cognitive burden later down the line.
