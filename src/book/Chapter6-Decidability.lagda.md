@@ -327,7 +327,7 @@ Compare this type to the more "obvious" type:
 ```
 
 The difference between [1](Ann) and [2](Ann) is in the placement of the binder
-for `A :` `type:Set`. In the latter type, in the latter, we receive a
+for `A :` `type:Set`. In the latter, we receive a
 specific `A`, and are then required to give back a proof that there is no
 `def:≢-refl` *for that specific type.* Contrast that against [1](Ann), in which
 we are required to show that there does not exist a `def:≢-refl` that works for
